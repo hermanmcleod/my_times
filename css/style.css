@@ -1,0 +1,56 @@
+header {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: baseline;
+	padding: 15px;
+}
+
+.logo {
+	flex: 0 1 auto;
+	color: MediumAquamarine;
+	display: inline-flex;
+	align-content: center;
+	align-items: center;
+}
+
+header nav {
+	flex: 0 1 auto; 
+	align-content: space-around;
+
+}
+
+.logo p {
+	margin: 15px;
+}
+
+.top_navigation a {
+	margin: 15px;
+}
+
+a:link {
+	color: black;
+}
+
+div {
+	border: 2px solid black;
+}
+
+.container {
+	display: flex;
+}
+
+.column.large {
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
